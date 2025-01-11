@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AppBarLayout</string>
+    <string name="image_view_description">WW2 Soldier</string>
+    <string name="title">Hell Let Loose</string>
+
+    <string name="official_website_link">https://www.hellletloose.com</string>
+
+    <string name="intro_text">
+        Hell Let Loose é um jogo de tiro tático que leva você diretamente para o caos da Segunda Guerra Mundial.
+    </string>
+    <string name="info_text">
+        Experimente batalhas massivas em mapas baseados em imagens reais, onde cada partida depende de estratégias
+        coordenadas e trabalho em equipe. Escolha entre 14 funções únicas para apoiar sua equipe.
+    </string>
+    <string name="soldier_running">Soldier running</string>
+    <string name="features">Funcionalidades Principais</string>
+    <string name="features_description">O jogo oferece uma série de funcionalidades únicas que o diferenciam de outros títulos de tiro em primeira pessoa:</string>
+    <string name="feature_01">- Combates com até 100 jogadores em cada partida.</string>
+    <string name="feature_02">- Mapas detalhados baseados em imagens reais da Segunda Guerra Mundial.</string>
+    <string name="feature_03">- Sistema de recursos e cadeia de comando autênticos.</string>
+    <string name="feature_04">- 14 funções distintas, como comandante, engenheiro e artilheiro.</string>
+    <string name="bombing_run">Bombing Run</string>
+    <string name="maps">Mapas e Ambientes</string>
+    <string name="maps_description">Explore mapas detalhados baseados em locais reais da Segunda Guerra Mundial, como Normandia, Carentan, Stalingrado e muito mais. Cada mapa foi projetado para oferecer desafios únicos e uma experiência imersiva.</string>
+    <string name="game_map">Game Map</string>
+    <string name="website">Site Oficial: www.hellletloose.com</string>
+    <string name="steam_page">Steam: store.steampowered.com/app/hellletloose</string>
+    <string name="links">Links Úteis</string>
+    <string name="official_website">Abrir site oficial</string>
+
+</resources>
