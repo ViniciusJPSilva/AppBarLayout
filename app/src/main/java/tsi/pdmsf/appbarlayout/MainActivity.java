@@ -6,12 +6,9 @@ import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,16 +18,13 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        // Colapsrar a ActionBar
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
+        // Configurações da ActionBar
+        setSupportActionBar(findViewById(R.id.toolbar));
         if (getSupportActionBar() != null)
             getSupportActionBar().setTitle(R.string.title);
 
-        // Botão da ActionBar
-        FloatingActionButton fab = findViewById(R.id.fab_open_website);
-        fab.setOnClickListener(view -> {
+        // Botão flutuante
+        findViewById(R.id.fab_open_website).setOnClickListener(view -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.official_website_link)));
             startActivity(browserIntent);
         });
